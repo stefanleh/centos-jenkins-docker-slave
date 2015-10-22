@@ -1,6 +1,7 @@
 # centos-jenkins-docker-slave
 
 A jenkins docker slave image, based on **centos:latest**.
+
 Can be used Out-Of-The-Box with the [docker-plugin](https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin "docker-plugin") for [Jenkins](https://jenkins-ci.org/ "Jenkins CI Server").
 
 ## Installed packages ##
