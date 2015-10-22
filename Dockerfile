@@ -7,7 +7,6 @@ MAINTAINER Stefan Lehmann <stefan.lehmann@unic.com>
 
 # Install a basic SSH server GIT, UNZIP, LSOF and JDK 8
 RUN yum install -y openssh-server git unzip lsof java-1.8.0-openjdk-headless && yum clean all
-# TODO: check if thats really necessary on centos (the original dockerfile uses ubuntu)
 RUN sed -i 's|session    required     pam_loginuid.so|session    optional     pam_loginuid.so|g' /etc/pam.d/sshd
 RUN mkdir -p /var/run/sshd
 
