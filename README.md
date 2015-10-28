@@ -12,7 +12,7 @@ The image on [DockerHub](https://hub.docker.com/r/stefanlehmann/centos-jenkins-d
 |-----------------------------|----------------------------------------------------------------------------------|
 | openssh-server              | Jenkins communicates via ssh with its slaves.                                    |
 | git                         | Most projects use GIT for version control.                                       |
-| lsof                        | Needed by one of my projects for determing if a particular component is running. |
+| lsof                        | Needed by one of my projects for determining if a particular component is running. |
 | unzip                       | Also needed by one of my projects for unzipping 3rd party content.               |
 | java-1.8.0-openjdk-headless | Java OpenJDK 1.8.0 is needed for building my java projects.                      |
 
