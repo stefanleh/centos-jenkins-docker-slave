@@ -8,12 +8,13 @@ The image on [DockerHub](https://hub.docker.com/r/stefanlehmann/centos-jenkins-d
 
 ## Installed packages ##
 
-* openssh-server
-* git
-* lsof
-* unzip
-* java-1.8.0-openjdk-headless 
+| Package                     | Comment                                                                          |
+|-----------------------------|----------------------------------------------------------------------------------|
+| openssh-server              | Jenkins communicates via ssh with its slaves.                                    |
+| git                         | Most projects use GIT for version control.                                       |
+| lsof                        | Needed by one of my projects for determing if a particular component is running. |
+| unzip                       | Also needed by one of my projects for unzipping 3rd party content.               |
+| java-1.8.0-openjdk-headless | Java OpenJDK 1.8.0 is needed for building my java projects.                      |
 
 ## User ##
 jenkins:jenkins (with uid 1000)
-
