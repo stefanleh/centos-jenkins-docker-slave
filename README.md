@@ -1,5 +1,7 @@
 # centos-jenkins-docker-slave
 
+[![](https://badge.imagelayers.io/stefanlehmann/centos-jenkins-docker-slave:latest.svg)](https://imagelayers.io/?images=stefanlehmann/centos-jenkins-docker-slave:latest 'Get your own badge on imagelayers.io')
+
 A jenkins docker slave image, based on **centos:latest**.
 
 Can be used Out-Of-The-Box with the [docker-plugin](https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin "docker-plugin") for [Jenkins](https://jenkins-ci.org/ "Jenkins CI Server").
