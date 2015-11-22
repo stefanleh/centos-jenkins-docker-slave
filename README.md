@@ -1,4 +1,4 @@
-# centos-jenkins-docker-slave
+### centos-jenkins-docker-slave
 
 [![](https://badge.imagelayers.io/stefanlehmann/centos-jenkins-docker-slave:latest.svg)](https://imagelayers.io/?images=stefanlehmann/centos-jenkins-docker-slave:latest 'Get your own badge on imagelayers.io')
 
@@ -8,7 +8,7 @@ Can be used Out-Of-The-Box with the [docker-plugin](https://wiki.jenkins-ci.org/
 
 The image on [DockerHub](https://hub.docker.com/r/stefanlehmann/centos-jenkins-docker-slave/ "DockerHub") is built automatically from the Dockerfile here.
 
-## Installed packages ##
+#### Installed packages
 
 | Package                     | Comment                                                                          |
 |-----------------------------|----------------------------------------------------------------------------------|
@@ -18,5 +18,6 @@ The image on [DockerHub](https://hub.docker.com/r/stefanlehmann/centos-jenkins-d
 | unzip                       | Also needed by one of my projects for unzipping 3rd party content.               |
 | java-1.8.0-openjdk-headless | Java OpenJDK 1.8.0 is needed for building my java projects.                      |
 
-## User ##
+#### User
+
 jenkins:jenkins (with uid 1000)
