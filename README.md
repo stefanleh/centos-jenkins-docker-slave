@@ -16,7 +16,7 @@ The image on [DockerHub](https://hub.docker.com/r/stefanlehmann/centos-jenkins-d
 | git                         | Most projects use GIT for version control.                                       |
 | lsof                        | Needed by one of my projects for determining if a particular component is running. |
 | unzip                       | Also needed by one of my projects for unzipping 3rd party content.               |
-| java-1.7.0-openjdk-headless | Java OpenJDK 1.7.0 is needed for building my java projects.                      |
+| jdk-7u79-linux-x64          | Oracle Java JDK 1.7.0 is needed for building my java projects.                   |
 
 #### User
 
