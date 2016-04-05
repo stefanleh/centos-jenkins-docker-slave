@@ -5,7 +5,7 @@
 FROM centos:latest
 MAINTAINER Stefan Lehmann <stefan.lehmann@unic.com>
 
-# Install a basic SSH server GIT, UNZIP, LSOF and JDK 8
+# Install a basic SSH server GIT, UNZIP, LSOF and JDK 7
 RUN yum install -y openssh-server git unzip lsof java-1.7.0-openjdk-headless && yum clean all
 # update sshd settings, create jenkins user, set jenkins user pw, generate ssh keys
 RUN sed -i 's|session    required     pam_loginuid.so|session    optional     pam_loginuid.so|g' /etc/pam.d/sshd \
