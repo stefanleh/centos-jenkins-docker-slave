@@ -1,6 +1,6 @@
 ### centos-jenkins-docker-slave
 
-[![](https://badge.imagelayers.io/stefanlehmann/centos-jenkins-docker-slave:latest.svg)](https://imagelayers.io/?images=stefanlehmann/centos-jenkins-docker-slave:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/stefanlehmann/centos-jenkins-docker-slave.svg)](https://microbadger.com/#/images/stefanlehmann/centos-jenkins-docker-slave "Get your own image badge on microbadger.com")
 
 A jenkins docker slave image, based on **centos:latest**.
 
