@@ -20,4 +20,10 @@ The image on [DockerHub](https://hub.docker.com/r/stefanlehmann/centos-jenkins-d
 
 #### User
 
-jenkins:jenkins (with uid 1000)
+| uid  | username | password |
+|------|----------|----------|
+| 1000 | jenkins  | jenkins  |
+
+#### Versions
+
+Please see the branches (GitHub) or Tags (DockerHub) for versions with other JDK or docker client included.
