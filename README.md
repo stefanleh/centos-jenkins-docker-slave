@@ -16,7 +16,7 @@ The image on [DockerHub](https://hub.docker.com/r/stefanlehmann/centos-jenkins-d
 | git                         | Most projects use GIT for version control.                                       |
 | lsof                        | Needed by one of my projects for determining if a particular component is running. |
 | unzip                       | Also needed by one of my projects for unzipping 3rd party content.               |
-| java                        | Depending on Tag/Branch different Java Versions (OpenJDK7/8 || OracleJDK7/8)     |
+| java                        | Depending on Tag/Branch different Java Versions (OpenJDK7/8 or OracleJDK7/8)     |
 
 #### User
 
