@@ -3,7 +3,7 @@
 # from https://hub.docker.com/r/evarga/jenkins-slave/
 
 FROM centos:latest
-MAINTAINER Stefan Lehmann <stefan.lehmann@oxaion.de>
+MAINTAINER Stefan Lehmann <stefan.lehmann@isb-ag.de>
 
 # Install a basic SSH server GIT, UNZIP, LSOF and JDK 8
 RUN yum install -y openssh-server git unzip lsof java-1.8.0-openjdk-headless && yum clean all
